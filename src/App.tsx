@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import styled from "@emotion/styled";
 
-function App() {
-  return (
-    <div className="App">
-      HelloWorld
-    </div>
-  );
+const Title = styled.h1`
+  color: red;
+  border: 1px solid black;
+`;
+
+export default function App() {
+  return <Title>hello World</Title>;
 }
-
-export default App;
